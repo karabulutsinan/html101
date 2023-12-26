@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üyelik Kayıt</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        section{
+            margin-left:780px;
+            text-align: left;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <form action="form.html">
+        <img src="images/sinankarabulut.png" alt="">
+            <section>
+                <article>
+                    <table >
+                        <tr>
+                            <td><label for="name">Kullanıcı Adı ve Soyadı</label></td>
+                            <td><input type="text"></td><br>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Parola</label> </td>
+                            <td><input type="password" placeholder="boş bırakmayınız!!"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="gender">Cinsiyet</label></td>
+                            <td>
+                                Erkek<input type="radio" name="genderRadio">
+                                Kadın<input type="radio" name="genderRadio">
+                            </td>                      
+                        </tr>
+                        <tr>
+                            <td><label for="optionFruit">Favori Meyveni Seç:</label></td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="Elma">Elma</option>
+                                    <option value="Armut">Armut</option>
+                                    <option value="Muz">Muz</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mesaj Yazınız:</td>
+                            <td><textarea name="txtMsg" id="txtMsg" cols="21" rows="3"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;"><input type="submit" value="Gönder"></td>
+                            <td style="text-align: center;"><input type="reset" name="Sil" id="btnReset" value="Sil"></td>
+                        </tr>
+                    </table>  
+                </article>
+            </section>
+        </form> 
+</body>
+</html>
