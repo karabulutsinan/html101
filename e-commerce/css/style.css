@@ -6,6 +6,9 @@
 }
 body{
     background-image: url(karabuluthyhy.PNG);
+    /*
+    background-size:cover; resmi arka plana tam sığdırma.
+    */
     font-family: sans-serif;
 
 }

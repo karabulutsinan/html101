@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+body{
+    
+    font-family: fantasy;
+    overflow-x: hidden;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    
+    background-color: black;
+    color:white;
+    
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    transition: all ease 0.5s;
+    z-index: 99999;
+}
+nav p {   
+    display: inline-flex;
+    
+    color:white;
+    font-size: 35px;
+    padding:5px;
+    margin-left: 30px;
+    letter-spacing: 15px;  
+}
+nav ul{
+    
+    list-style: none;  
+}
+nav ul li {
+    display: inline-block;
+    margin:0 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+nav ul li a:hover{
+    color: violet;
+}
+section{
+    margin: 0;
+    margin-bottom:70px;
+    padding: 0;
+   background-color: grey;
+    text-align: center;
+    
+}
+section h1{
+    margin:0;
+    margin-top: 80px;
+    font-size: 35px;
+    letter-spacing: 15px;
+    padding:20px;
+}
+
+
+.post{
+    border-radius: 60px;
+    
+    
+    display: inline-flex;
+    width: 500px;
+}
+.post .album-list{
+    border-radius: 30px;
+    border:3px groove #00fffc;
+    padding: 30px;
+    background-color: white;
+    margin:50px;
+    width:500px ;
+    height: 450px;
+    
+    
+}
+.post .album-list p{
+    padding:5% ;
+    font-weight: 700;
+}
+.post img{  
+    border-radius: 20px;   
+    height: 350px;
+}
+footer{
+    background-color: black;
+    color:white;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    transition: all ease 0.5s;
+    z-index: 99999;
+    position: fixed;
+  
+}
+footer p{
+    display: inline-flex;  
+    color:white; 
+}
+footer ul {
+    
+    list-style: none;
+    display: inline-flex;
+    margin-left:1111px;
+    
+}
+footer ul li { 
+   
+    margin: 0px 15px;
+    font-size: 30px;
+}
+footer ul li a{
+    color:#fff;
+   
+}
+
